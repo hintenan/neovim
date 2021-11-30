@@ -3,6 +3,10 @@ autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_in") | wincmd p | endif
 
 
+nnoremap <leader>n :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+nnoremap <C-f> :NERDTreeFind<CR>
 
 autocmd FileType vim inoremap if<Tab> if<Enter>endif<Esc>k$a<Space>
 autocmd FileType c,h inoremap if<Tab> if () {<Enter>}<Esc>kwa

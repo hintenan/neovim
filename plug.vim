@@ -14,6 +14,7 @@ call plug#begin()
     "Plug 'nvim-telescope/telescope.nvim'
     "Plug 'ms-jpq/coq_nvim'
     Plug 'preservim/nerdtree'
+    Plug 'luochen1990/rainbow'
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     if (has("nvim"))

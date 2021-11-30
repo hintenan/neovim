@@ -31,7 +31,6 @@ set colorcolumn=80
 set cmdheight=2
 set updatetime=50
 set shortmess+=c
-
 source ~/.config/nvim/plug.vim
 source ~/.config/nvim/remap.vim
 "colorscheme gruvbox
@@ -127,3 +126,5 @@ require'nvim-treesitter.configs'.setup {
   },
 }
 EOF
+
+let g:rainbow_active=1
